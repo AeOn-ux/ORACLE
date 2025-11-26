@@ -628,8 +628,7 @@ select salary from employees where salary not between 7000 and 7500;
 
 
 select hire_date from employees;
-desc employees;
-select employee_id, emp_name, department_id, hire_date 
+desc employees+}_;select employee_id, emp_name, department_id, hire_date 
 from employees where hire_date between '2005/01/01' and '2007/12/31';
 select employee_id, emp_name, department_id, hire_date 
 from employees where hire_date>='2005/01/01' and hire_date<= '2007/12/31';
